@@ -13,7 +13,7 @@ a {
 .header-img {
     width: 100%;
     height: 350px;
-background-image: url("/img/header_ice_s.jpg");
+background-image: url("img/header_ice_s.jpg");
 /* Source:<span>Photo by <a href="https://unsplash.com/@ghost_cat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Danielle Barnes</a> on <a href="https://unsplash.com/s/photos/penguins?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
     background-size: cover;
     opacity: 0.6;
@@ -62,7 +62,7 @@ main h1 {
 }
 footer {
     text-align: center;
-    background-image: url("/img/header_ice_s.jpg");
+    background-image: url("img/header_ice_s.jpg");
     padding: 20px 20px;
     opacity: 0.9;
 }
