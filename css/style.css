@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 20px;
+}
+p {
+    text-align: justify;
+}
+a {
+    color: #006d77;
+}
+.header-img {
+    width: 100%;
+    height: 350px;
+background-image: url("/img/header_ice_s.jpg");
+/* Source:<span>Photo by <a href="https://unsplash.com/@ghost_cat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Danielle Barnes</a> on <a href="https://unsplash.com/s/photos/penguins?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
+    background-size: cover;
+    opacity: 0.6;
+  }
+main {
+    background: #edf6f9;
+    padding: 10px 45px;
+}
+main h1 {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.img-right img {
+    width: 40%;
+    height: auto;
+    border: solid 2px #006d77;
+    border-radius: 5%;
+}
+.img-right {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+/* teksts un attels viena rinda */
+.img-left {
+    display: flex;
+}
+/* attela izmers un ramis */
+.img-left img {
+    width: 25%;
+    height: auto;
+    border: solid 3px #006d77;
+    border-radius: 10%;
+}
+.img-left div {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.video {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    text-align: center;
+    background-image: url("/img/header_ice_s.jpg");
+    padding: 20px 20px;
+    opacity: 0.9;
+}
